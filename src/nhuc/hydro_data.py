@@ -25,7 +25,7 @@ import requests
 NVE_URL = "https://biapi.nve.no/magasinstatistikk/api/Magasinstatistikk/HentOffentligData"
 EC_URL = "https://api.energy-charts.info"
 AREAS = ("NO1", "NO2", "NO3", "NO4", "NO5")
-_HEADERS = {"User-Agent": "nordic-hydro-unit-commitment (research; github.com/michaelserikov/nordic-hydro-unit-commitment)"}
+_HEADERS = {"User-Agent": "nordic-hydro-unit-commitment (research; github.com/serikov-energy-systems/nordic-hydro-unit-commitment)"}
 
 
 def _get(url: str, path: Path, retries: int = 6) -> object:

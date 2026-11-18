@@ -1,10 +1,10 @@
 # Unit commitment of the German thermal fleet and water values of Norwegian hydropower (v0.1)
 
-[![tests](https://github.com/michaelserikov/nordic-hydro-unit-commitment/actions/workflows/tests.yml/badge.svg)](https://github.com/michaelserikov/nordic-hydro-unit-commitment/actions/workflows/tests.yml)
+[![tests](https://github.com/serikov-energy-systems/nordic-hydro-unit-commitment/actions/workflows/tests.yml/badge.svg)](https://github.com/serikov-energy-systems/nordic-hydro-unit-commitment/actions/workflows/tests.yml)
 
 Two models that sit behind most power market fundamentals work, built from open data:
 
-1. **Unit commitment (MILP) of the German lignite, hard-coal and gas fleet**, hourly, 2023-2025. It extends the merit-order model of [de-power-market-ppa](https://github.com/michaelserikov/de-power-market-ppa) (v0.4) with minimum stable output, minimum up and down times and start-up costs, and asks how much of the gap between a merit order and observed prices these constraints explain.
+1. **Unit commitment (MILP) of the German lignite, hard-coal and gas fleet**, hourly, 2023-2025. It extends the merit-order model of [de-power-market-ppa](https://github.com/serikov-power-markets/de-power-market-ppa) (v0.4) with minimum stable output, minimum up and down times and start-up costs, and asks how much of the gap between a merit order and observed prices these constraints explain.
 2. **Water values of the aggregate Norwegian reservoir** by stochastic dynamic programming, weekly, 2015-2025, with an out-of-sample backtest against the observed operation and against perfect foresight.
 
 **Unit commitment: main findings**

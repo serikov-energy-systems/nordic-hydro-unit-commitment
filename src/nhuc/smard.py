@@ -43,7 +43,7 @@ FUEL_SERIES = {
 }
 
 _session = requests.Session()
-_session.headers["User-Agent"] = "nordic-hydro-unit-commitment (research; github.com/michaelserikov/nordic-hydro-unit-commitment)"
+_session.headers["User-Agent"] = "nordic-hydro-unit-commitment (research; github.com/serikov-energy-systems/nordic-hydro-unit-commitment)"
 
 
 def _get_json(url: str, retries: int = 4) -> dict:

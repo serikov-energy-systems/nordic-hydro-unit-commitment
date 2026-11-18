@@ -29,7 +29,7 @@ EEX_URL = ("https://www.eex.com/fileadmin/EEX/Downloads/Markets/Environmentals/"
 MMBTU_PER_MWH = 3.412
 COAL_MWH_PER_T = 6.978
 
-_HEADERS = {"User-Agent": "nordic-hydro-unit-commitment (research; github.com/michaelserikov/nordic-hydro-unit-commitment)"}
+_HEADERS = {"User-Agent": "nordic-hydro-unit-commitment (research; github.com/serikov-energy-systems/nordic-hydro-unit-commitment)"}
 
 
 def _cached(url: str, path: Path) -> bytes:
